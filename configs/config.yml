@@ -1,10 +1,15 @@
 server:
-  name: go-sql-hexagonal-architecture-sample
+  name: go-clean-architecture-sample
   port: 8080
 
+# sql:
+#   driver: postgres
+#   data_source_name: host=peanut.db.elephantsql.com port=5432 user=yhjnkfrf dbname=yhjnkfrf sslmode=require password=HJ2Z7WiHxBzRKl5e8To_fcIko-i93wda
+
 sql:
-  driver: mysql
-  data_source_name: root:abcd1234@/masterdata?charset=utf8&parseTime=True&loc=Local
+  driver: postgres
+  data_source_name: host=tiny.db.elephantsql.com port=5432 user=zmpiefhm dbname=zmpiefhm sslmode=require password=QTcJLcQNRuw-q0AHWcE_i0HagqDucTEC
+
 
 log:
   level: info
